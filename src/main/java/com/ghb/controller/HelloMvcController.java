@@ -16,10 +16,4 @@ public class HelloMvcController {
 
         return "hellosdf";
     }
-    @RequestMapping(value = "/mvc",method = RequestMethod.GET)
-    public String helloMvc111(){
-        System.out.println(111111);
-
-        return "hello";
-    }
 }
