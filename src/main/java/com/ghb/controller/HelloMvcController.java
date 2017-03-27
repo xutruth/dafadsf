@@ -14,6 +14,6 @@ public class HelloMvcController {
     public String helloMvc(){
         System.out.println(111111);
 
-        return "hellosdf";
+        return "hello";
     }
 }
