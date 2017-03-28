@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HelloMvcController {
     //localHost:8080/hello/mvc
-    @RequestMapping(value = "/mvc",method = RequestMethod.GET)
-    public String helloMvc(){
+    @RequestMapping(value = "/mvc", method = RequestMethod.GET)
+    public String helloMvc() {
         System.out.println(111111);
 
         return "hello";
